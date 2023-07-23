@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="w-[620px] h-[348px]">
-          <img src="developer.webp" alt="" />
+          <img src="/developer.webp" alt="" />
         </div>
       </div>
     </section>
@@ -52,36 +52,6 @@
       </div>
     </section>
 
-    <!-- skills  -->
-    <!-- <div class="mx-auto w-full text-center py-[66px]">
-      <p class="text-3xl font-bold text-[#303030]">My Skills</p>
-      <p class="pt-4 text-[#3d3d3d]">I specialize in the following areas:</p>
-      
-      <div
-        class="flex flex-wrap justify-center gap-[30px] text-start mt-[51px] mx-[220px]"
-      >
-        <div v-for="(skill, index) in skills" :key="index" class=" ">
-          <div class="rounded-md shadow-md px-[25px]">
-            <div class="pt-[30px]">
-              <img :src="skill.img" alt="" class="h-10 w-10" />
-            </div>
-            <h1 class="pt-[15px] font-bold text-lg text-[#303030]">
-              {{ skill.title }}
-            </h1>
-            <p class="pt-[10px] text-[#3d3d3d] leading-normal pb-10">
-              {{ skill.content }}
-            </p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- <div class="w-full flex justify-center items-center">
-      <div data-aos="fade-up" data-aos-duration="3000">
-        <div class="w-40 h-40 bg-green-300">hello aos</div>
-      </div>
-    </div> -->
-
     <!-- experience  -->
     <section id="experience-section" class="mt-20 mx-auto max-w-[1200px]">
       <div class="w-full flex justify-center">
@@ -89,7 +59,7 @@
       </div>
       <div class="flex mt-20">
         <div data-aos="fade-right" class="w-1/2">
-          <img src="code1.png" alt="" />
+          <img src="/code1.png" alt="" />
         </div>
         <div class="flex gap-4 w-1/2">
           <div class="flex flex-col items-center justify-center">
@@ -220,15 +190,15 @@ export default {
 </script>
 <style>
 .loading-bar {
-  height: 1px; /* Start with a height of 1 pixel */
-  width: 1px; /* You can set this to any initial width you prefer */
+  height: 1px;
+  width: 1px;
   background-color: #c4c8cf;
   animation: expandHeight 12s forwards;
 }
 
 @keyframes expandHeight {
   0% {
-    height: 1px; /* Start with 1 pixel height */
+    height: 1px;
   }
   100% {
     height: 300px; /* End with 300 pixels height */

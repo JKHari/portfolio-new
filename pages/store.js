@@ -32,11 +32,11 @@ export const socialmedia = [
   },
   {
     img: "/linkedin.svg",
-    link: "https://www.instagram.com/the_hari_jk/",
+    link: "https://linkedin.com/in/jkhari66",
   },
   {
     img: "/github.svg",
-    link: "https://www.instagram.com/the_hari_jk/",
+    link: "https://github.com/JKHari",
   },
 ];
 

@@ -1,52 +1,58 @@
 <template>
   <div>
     <!-- this is a header  -->
-    <section id="home-section" class="max-w-[1200px] mx-auto my-[70px]">
-      <div class="flex">
+    <section id="home-section" class="max-w-[1200px] mx-auto my-[70px] w-full">
+      <div class="flex flex-col lg:flex-row items-center justify-center">
         <!-- this is a content  -->
-        <div class="w-1/2 h-auto">
+        <div class="w-full lg:w-1/2 h-auto px-3 md:px-10 text-center">
           <div class="pl-[15px]">
-            <p class="mt-6 text-5xl leading-normal text-[#3d3d3d] font-bold">
+            <p
+              class="mt-6 text-3xl lg:text-5xl leading-normal text-[#3d3d3d] font-bold"
+            >
               Welcome to Hari Portfolio
             </p>
-            <p class="mt-6 pr-[150px]">
+            <p class="mt-6 lg:pr-[150px]">
               As a passionate and experienced Full Stack Developer, I am
               dedicated to solving complex problems and delivering high-quality
               solutions.
             </p>
 
-            <a
-              href="#projects-section"
-              class="block mt-[43px] px-4 py-2 rounded-md border-[#164085] text-[#164085] border-solid border-2 text-center cursor-pointer hover:shadow-2xl w-36"
-            >
-              View Projects
-            </a>
+            <div class="w-full flex items-center justify-center">
+              <a
+                href="#projects-section"
+                class="block mt-[43px] px-4 py-2 rounded-md border-[#164085] text-[#164085] border-solid border-2 text-center cursor-pointer hover:shadow-2xl w-36"
+              >
+                View Projects
+              </a>
+            </div>
           </div>
         </div>
-        <div class="w-[620px] h-[348px]">
-          <img src="/you.png" alt="" class=" rounded-xl" />
+        <!--  -->
+        <div class="w-full px-5 max-w-[620px] max-h-[348px] mt-20">
+          <img src="/you.png" alt="" class="rounded-xl w-[100%] h-auto" />
         </div>
       </div>
     </section>
     <!-- skills   -->
     <section
       id="skills-section"
-      class="mx-auto max-w-[1200px] text-center py-[66px]"
+      class="mx-auto max-w-[1200px] text-center py-[66px] w-full px-10"
     >
       <p class="text-3xl font-bold text-[#303030]">My Skills</p>
       <p class="pt-4 text-[#3d3d3d]">I specialize in the following areas:</p>
-      <div class="flex mt-20">
+      <div class="flex mt-10 md:mt-20">
         <div
           v-for="(logo, index) in logos"
           :key="index"
-          class="flex gap-8 flex-wrap h-auto"
+          class="flex gap-8 flex-wrap h-auto justify-center"
         >
           <div
             v-for="item in logo.img"
             :key="item"
             data-aos="fade-up"
             data-aos-duration="2000"
-            class="h-40 w-40 bg-white shadow-md rounded-md flex justify-center items-center hover:shadow-xl cursor-pointer"
+            md:data-aos-duration="3000"
+            class="h-32 w-32 md:h-40 md:w-40 bg-white shadow-md rounded-md flex justify-center items-center hover:shadow-xl cursor-pointer"
           >
             <img :src="item" alt="" class="h-20 w-20" />
           </div>
@@ -55,42 +61,40 @@
     </section>
 
     <!-- experience  -->
-    <section id="experience-section" class="mt-20 mx-auto max-w-[1200px]">
+    <section
+      id="experience-section"
+      class="mt-20 mx-auto w-full max-w-[1200px]"
+    >
       <div class="w-full flex justify-center">
         <p class="text-3xl font-bold text-[#303030]">My Experience</p>
       </div>
-      <div class="flex mt-20">
-        <div data-aos="fade-right" class="w-1/2">
-          <img src="/code1.png" alt="" />
+      <div class="w-full flex flex-col lg:flex-row mt-20 items-center px-5 md:px-10">
+        <div md:data-aos="fade-right" class="w-full lg:w-1/2">
+          <img src="/code1.png" alt="" class="w-[100%] h-auto" />
         </div>
-        <div class="flex gap-4 w-1/2">
-          <div class="flex flex-col items-center justify-center">
+        <div class="flex gap-4 w-full lg:w-1/2 px-3 mt-4 md:mt-0 md:px-10">
+          <div
+            class="hidden lg:block flex flex-col items-center justify-center"
+          >
             <p class="rounded-full border border-gray-200 px-3 py-1">1</p>
             <span class="h-full w-[2px] bg-gray-200"></span>
           </div>
-          <!-- <div class="flex flex-col items-center justify-center">
-            <p class="rounded-full border border-gray-200 px-3 py-1">1</p>
-            <span class="h-full w-1 bg-gray-200 animate-loading"></span>
-          </div> -->
-          <!-- <div class="flex flex-col">
-            <div class="flex flex-col items-center justify-center">
-              <p class="rounded-full border border-gray-200 px-3 py-1">1</p>
-            </div>
-            <div class="flex flex-col items-center justify-center">
-              <span class="loading-bar"></span>
-            </div>
-          </div> -->
-          <div data-aos="fade-left" class="pl-2">
-            <h1 class="text-2xl font-bold text-[#303030]">
+
+          <div md:data-aos="fade-left" class="pl-2 mt-4">
+            <h1 class="text-xl md:text-2xl font-bold text-[#303030]">
               Full stack Developer
             </h1>
-            <p class="mt-3 text-lg font-normal text-gray-400">
+            <p
+              class="mt-2 md:mt-3 text-md md:text-lg font-normal text-gray-400"
+            >
               Jul 2022- Present
             </p>
-            <p class="mt-3 text-lg font-normal text-gray-400">
+            <p
+              class="mt-2 md:mt-3 text-md md:text-lg font-normal text-gray-400"
+            >
               Lmes Academy , Chennai
             </p>
-            <p class="mt-4 text-black/80">
+            <p class="mt-2 md:mt-4 text-md text-black/80">
               As a proficient full stack developer at LMES Academy , I have
               played a vital role in a diverse range of projects, including
               designing and implementing Role-Based Access Control (RBAC)
@@ -122,13 +126,13 @@
           data-aos-duration="3000"
           v-for="(project, index) in projects"
           :key="index"
-          class="flex flex-wrap p-3 justify-center px-[15%] w-full"
+          class="flex flex-wrap p-3 justify-center lg:px-[15%] w-full px-20"
         >
-          <div class="p-3 flex gap-[5%] w-full">
-            <div class="w-1/2">
+          <div class="p-3 flex flex-col gap-[5%] w-full">
+            <div class="w-full lg:w-1/2">
               <img :src="project.img" alt="image" class="w-[500px] h-[330px]" />
             </div>
-            <div class="w-1/2">
+            <div class="w-full lg:w-1/2 mt-4 lg:mt-0">
               <p class="pt-[15px] text-2xl font-bold text-[#303030]">
                 {{ project.heading }}
               </p>

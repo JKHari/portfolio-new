@@ -14,15 +14,17 @@
               dedicated to solving complex problems and delivering high-quality
               solutions.
             </p>
-            <button
-              class="mt-[43px] px-4 py-2 rounded-md border-[#164085] text-[#164085] border-solid border-2 hover:mb-3 cursor-pointer hover:shadow-lg"
+
+            <a
+              href="#projects-section"
+              class="block mt-[43px] px-4 py-2 rounded-md border-[#164085] text-[#164085] border-solid border-2 text-center cursor-pointer hover:shadow-2xl w-36"
             >
               View Projects
-            </button>
+            </a>
           </div>
         </div>
         <div class="w-[620px] h-[348px]">
-          <img src="/developer.webp" alt="" />
+          <img src="/you.png" alt="" class=" rounded-xl" />
         </div>
       </div>
     </section>

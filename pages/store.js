@@ -20,6 +20,7 @@ export const logos = [
       "/thunder.png",
       "/linux.svg",
       "/vscode.svg",
+      "/netlify.svg",
     ],
   },
 ];
@@ -69,16 +70,24 @@ export const projects = [
     link: "",
   },
   {
-    img: "/ticketBooking.png",
-    heading: "Movie Ticket Booking",
+    img: "/rbac.webp",
+    heading: "Role Based Access Control",
     content:
       "Originally from Latin, Lorem ipsum has no intelligible meaning. It is simply a display of letters to be viewed as a sample with given graphical elements in a file.  (a portmanteau of lorem and ipsum) generators are commonly used to form generic text in a file ",
     linkimg: "link2.png",
     link: "",
   },
   {
-    img: "/rbac.webp",
-    heading: "Role Based Access Control",
+    img: "/whatsapp.png",
+    heading: "Whatsapp Automation",
+    content:
+      "Originally from Latin, Lorem ipsum has no intelligible meaning. It is simply a display of letters to be viewed as a sample with given graphical elements in a file.  (a portmanteau of lorem and ipsum) generators are commonly used to form generic text in a file ",
+    linkimg: "link2.png",
+    link: "",
+  },
+  {
+    img: "/ticketBooking.png",
+    heading: "Movie Ticket Booking",
     content:
       "Originally from Latin, Lorem ipsum has no intelligible meaning. It is simply a display of letters to be viewed as a sample with given graphical elements in a file.  (a portmanteau of lorem and ipsum) generators are commonly used to form generic text in a file ",
     linkimg: "link2.png",

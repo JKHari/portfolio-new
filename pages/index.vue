@@ -132,9 +132,9 @@
           data-aos-duration="3000"
           v-for="(project, index) in projects"
           :key="index"
-          class="flex flex-wrap p-3 justify-center w-full px-20"
+          class="flex flex-wrap  justify-center w-full px-10"
         >
-          <div class="p-3 flex flex-col lg:flex-row gap-[5%] w-full">
+          <div class="p-3 flex flex-col lg:flex-row  gap-[5%] w-full">
             <div class="w-full lg:w-1/2">
               <img :src="project.img" alt="image" class="w-[500px] h-[330px]" />
             </div>

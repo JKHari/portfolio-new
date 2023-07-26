@@ -132,10 +132,10 @@
           data-aos-duration="3000"
           v-for="(project, index) in projects"
           :key="index"
-          class="flex flex-wrap  justify-center w-full px-10"
+          class="flex flex-wrap justify-center w-full px-10"
         >
-          <div class="p-3 flex flex-col lg:flex-row  gap-[5%] w-full">
-            <div class="w-full lg:w-1/2">
+          <div class="p-3 flex flex-col lg:flex-row gap-[5%] w-full">
+            <div class="w-full lg:w-1/2 md:pl-20 lg:pl-0">
               <img :src="project.img" alt="image" class="w-[500px] h-[330px]" />
             </div>
             <div class="w-full lg:w-1/2 mt-4 lg:mt-0">
@@ -146,9 +146,17 @@
               <div
                 class="pt-[20px] hover:text-[#14b8a6] transition duration-150"
               >
-                <a :href="project.link" class="flex gap-2">
+                <a
+                  :href="project.link"
+                  v-if="project.linkimg"
+                  class="flex gap-2"
+                  target="_blank"
+                >
                   <img :src="project.linkimg" class="w-5 h-5" /> View Project
                 </a>
+                <span v-else>
+                  <p>{{ project.reason }}</p>
+                </span>
               </div>
             </div>
           </div>
@@ -185,13 +193,13 @@
 <script>
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { logos, socialmedia, skills, projects } from "./store";
+import { logos, socialmedia, projects } from "./store";
 export default {
   data() {
     return {
       logos,
       socialmedia,
-      skills,
+
       projects,
     };
   },

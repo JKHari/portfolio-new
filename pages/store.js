@@ -40,26 +40,6 @@ export const socialmedia = [
   },
 ];
 
-export const skills = [
-  {
-    img: "/ui-design.png",
-    title: "Frontend Development",
-    content:
-      "Creating responsive and interactive web pages using HTML, CSS, and JavaScript.",
-  },
-  {
-    img: "/backend.png",
-    title: "Backend Development",
-    content:
-      "Building robust server-side applications with Node.js and Express.js.",
-  },
-  {
-    img: "/db.png",
-    title: "Database Management",
-    content: "Designing and managing databases using SQL and MongoDB.",
-  },
-];
-
 export const projects = [
   {
     img: "/portfolio.jpg",
@@ -67,7 +47,8 @@ export const projects = [
     content:
       "Originally from Latin, Lorem ipsum has no intelligible meaning. It is simply a display of letters to be viewed as a sample with given graphical elements in a file.  (a portmanteau of lorem and ipsum) generators are commonly used to form generic text in a file ",
     linkimg: "link2.png",
-    link: "",
+    link: "https://github.com/JKHari/portfolio-new",
+    reason: "",
   },
   {
     img: "/rbac.webp",
@@ -76,14 +57,16 @@ export const projects = [
       "Originally from Latin, Lorem ipsum has no intelligible meaning. It is simply a display of letters to be viewed as a sample with given graphical elements in a file.  (a portmanteau of lorem and ipsum) generators are commonly used to form generic text in a file ",
     linkimg: "link2.png",
     link: "",
+    reason: "",
   },
   {
     img: "/whatsapp.png",
     heading: "Whatsapp Automation",
     content:
       "Originally from Latin, Lorem ipsum has no intelligible meaning. It is simply a display of letters to be viewed as a sample with given graphical elements in a file.  (a portmanteau of lorem and ipsum) generators are commonly used to form generic text in a file ",
-    linkimg: "link2.png",
+    linkimg: "",
     link: "",
+    reason: "Personal Project",
   },
   {
     img: "/ticketBooking.png",
@@ -92,5 +75,6 @@ export const projects = [
       "Originally from Latin, Lorem ipsum has no intelligible meaning. It is simply a display of letters to be viewed as a sample with given graphical elements in a file.  (a portmanteau of lorem and ipsum) generators are commonly used to form generic text in a file ",
     linkimg: "link2.png",
     link: "",
+    reason: "",
   },
 ];

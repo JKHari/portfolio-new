@@ -14,9 +14,16 @@
               Welcome to Hari Portfolio
             </p>
             <p class="mt-6 lg:pr-[150px]">
-              As a passionate and experienced Full Stack Developer, I am
-              dedicated to solving complex problems and delivering high-quality
-              solutions.
+              As a full stack developer with one year of professional
+              experience, I am passionate about crafting innovative and
+              efficient solutions to real-world challenges. Proficient in both
+              front-end and back-end technologies, I strive to deliver seamless
+              user experiences and robust functionalities. With a strong
+              foundation in programming languages. I am always eager to stay
+              up-to-date with the latest industry trends. I am a quick learner,
+              a team player, and I thrive in dynamic, collaborative
+              environments. My goal is to contribute my skills and expertise to
+              create cutting-edge applications that make a positive impact
             </p>
 
             <div
@@ -32,7 +39,9 @@
           </div>
         </div>
         <!--  -->
-        <div class="w-full px-5 lg:w-1/2 max-w-[620px] max-h-[348px] mt-20">
+        <div
+          class="w-full px-5 lg:w-1/2 max-w-[620px] max-h-[348px] mt-20 lg:mb-24"
+        >
           <img src="/you.png" alt="" class="rounded-xl w-[100%] h-auto" />
         </div>
       </div>
@@ -104,13 +113,13 @@
               As a proficient full stack developer at LMES Academy , I have
               played a vital role in a diverse range of projects, including
               designing and implementing Role-Based Access Control (RBAC)
-              systems, optimizing databases using SQL/MySQL, and building
-              user-friendly websites with NUXT 3. Collaborating seamlessly with
-              cross-functional teams, I take pride in delivering clean code
-              architecture, ensuring scalability and security while staying
-              updated with the latest industry trends. With a passion for
-              problem-solving and continuous learning, I am committed to
-              creating impactful and efficient web solution
+              systems, Whataspp Message Automation , Admin and User-friendly
+              dashboards and building user-friendly websites with NUXT 3.
+              Collaborating seamlessly with cross-functional teams, I take pride
+              in delivering clean code architecture, ensuring scalability and
+              security while staying updated with the latest industry trends.
+              With a passion for problem-solving and continuous learning, I am
+              committed to creating impactful and efficient web solutions.
             </p>
             <div>
               <p></p>

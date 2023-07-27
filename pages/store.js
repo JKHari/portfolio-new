@@ -45,7 +45,7 @@ export const projects = [
     img: "/portfolio.jpg",
     heading: "Portfolio",
     content:
-      "Originally from Latin, Lorem ipsum has no intelligible meaning. It is simply a display of letters to be viewed as a sample with given graphical elements in a file.  (a portmanteau of lorem and ipsum) generators are commonly used to form generic text in a file ",
+      "Crafted a dynamic and responsive portfolio highlighting my skills and projects. Leveraged cutting-edge web technologies to create a visually captivating UI that seamlessly adapts across devices. Prioritized user-friendly navigation and presented work with clarity. Showcased creative prowess and meticulous design and implementation.",
     linkimg: "link2.png",
     link: "https://github.com/JKHari/portfolio-new",
     reason: "",
@@ -54,7 +54,7 @@ export const projects = [
     img: "/rbac.webp",
     heading: "Role Based Access Control",
     content:
-      "Originally from Latin, Lorem ipsum has no intelligible meaning. It is simply a display of letters to be viewed as a sample with given graphical elements in a file.  (a portmanteau of lorem and ipsum) generators are commonly used to form generic text in a file ",
+      "Developed a Role-Based Access System using Nuxt3, SQL, MySQL, and Tailwind CSS. Leveraged Nuxt3 framework for frontend and integrated with SQL & MySQL for efficient database management. Utilized Tailwind CSS for responsive UI/UX. Implemented role-based authentication and authorization for enhanced security. Collaborated with cross-functional teams to gather requirements and deliver seamless solutions.",
     linkimg: "link2.png",
     link: "",
     reason: "",
@@ -63,7 +63,7 @@ export const projects = [
     img: "/whatsapp.png",
     heading: "Whatsapp Automation",
     content:
-      "Originally from Latin, Lorem ipsum has no intelligible meaning. It is simply a display of letters to be viewed as a sample with given graphical elements in a file.  (a portmanteau of lorem and ipsum) generators are commonly used to form generic text in a file ",
+      "Developed WhatsApp Message Automation using Nuxt3, Tailwind CSS, SQL, MySQL, and BullMQ for efficient job handling. Built responsive frontend with Nuxt3 and styled with Tailwind CSS. Utilized SQL & MySQL for data management. Integrated BullMQ for background job processing.",
     linkimg: "",
     link: "",
     reason: "Personal Project",
@@ -72,9 +72,9 @@ export const projects = [
     img: "/ticketBooking.png",
     heading: "Movie Ticket Booking",
     content:
-      "Originally from Latin, Lorem ipsum has no intelligible meaning. It is simply a display of letters to be viewed as a sample with given graphical elements in a file.  (a portmanteau of lorem and ipsum) generators are commonly used to form generic text in a file ",
+      "Developed a Ticket Booking system using Vue 2, Tailwind CSS, SQL, and SQL Server. Created a user-friendly UI with Vue 2 and styled it using Tailwind CSS. Utilized SQL & SQL Server for efficient data management. Successfully implemented ticket booking functionality for seamless user experience.",
     linkimg: "link2.png",
-    link: "",
+    link: "https://github.com/JKHari/Ticket-Booking",
     reason: "",
   },
 ];
